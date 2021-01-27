@@ -18,6 +18,7 @@
 		B237C5F025B8125B0046CD2B /* TSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B237C5EE25B8125B0046CD2B /* TSMainViewController.m */; };
 		B237C5F125B8125B0046CD2B /* TSMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B237C5EF25B8125B0046CD2B /* TSMainViewController.xib */; };
 		B237C5FA25B813D10046CD2B /* TSMainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B237C5F925B813D10046CD2B /* TSMainViewModel.m */; };
+		B2FEA02925C17C5900A6FA04 /* CGFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FEA02125C17C2000A6FA04 /* CGFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = B237C5A925B80E430046CD2B;
 			remoteInfo = XTCG_Models_Test;
+		};
+		B2FEA02025C17C2000A6FA04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2FEA01A25C17C2000A6FA04 /* CGFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B2811927256E43C500A447D6;
+			remoteInfo = CGFramework;
+		};
+		B2FEA02225C17C2000A6FA04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2FEA01A25C17C2000A6FA04 /* CGFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B27CD39B25C17812005D9837;
+			remoteInfo = CGBundle;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -72,6 +87,7 @@
 		B237C5EF25B8125B0046CD2B /* TSMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSMainViewController.xib; sourceTree = "<group>"; };
 		B237C5F825B813D10046CD2B /* TSMainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSMainViewModel.h; sourceTree = "<group>"; };
 		B237C5F925B813D10046CD2B /* TSMainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSMainViewModel.m; sourceTree = "<group>"; };
+		B2FEA01A25C17C2000A6FA04 /* CGFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CGFramework.xcodeproj; path = ../../CGFrameworkRepository/CGFramework/CGFramework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2FEA02925C17C5900A6FA04 /* CGFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +119,7 @@
 		B237C5A125B80E430046CD2B = {
 			isa = PBXGroup;
 			children = (
+				B2FEA01A25C17C2000A6FA04 /* CGFramework.xcodeproj */,
 				B237C5AC25B80E430046CD2B /* XTCG_Models_Test */,
 				B237C5C825B80E440046CD2B /* XTCG_Models_TestTests */,
 				B237C5D325B80E440046CD2B /* XTCG_Models_TestUITests */,
@@ -198,6 +216,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B2FEA01B25C17C2000A6FA04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2FEA02125C17C2000A6FA04 /* CGFramework.framework */,
+				B2FEA02325C17C2000A6FA04 /* CGBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -291,6 +318,12 @@
 			mainGroup = B237C5A125B80E430046CD2B;
 			productRefGroup = B237C5AB25B80E430046CD2B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B2FEA01B25C17C2000A6FA04 /* Products */;
+					ProjectRef = B2FEA01A25C17C2000A6FA04 /* CGFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B237C5A925B80E430046CD2B /* XTCG_Models_Test */,
@@ -299,6 +332,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B2FEA02125C17C2000A6FA04 /* CGFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CGFramework.framework;
+			remoteRef = B2FEA02025C17C2000A6FA04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B2FEA02325C17C2000A6FA04 /* CGBundle.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CGBundle.bundle;
+			remoteRef = B2FEA02225C17C2000A6FA04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B237C5A825B80E430046CD2B /* Resources */ = {
