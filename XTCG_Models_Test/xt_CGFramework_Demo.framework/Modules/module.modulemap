@@ -1,0 +1,6 @@
+framework module xt_CGFramework_Demo {
+  umbrella header "xt_CGFramework_Demo.h"
+
+  export *
+  module * { export * }
+}
