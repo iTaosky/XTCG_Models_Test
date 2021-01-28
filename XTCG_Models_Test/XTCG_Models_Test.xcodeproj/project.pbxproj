@@ -18,7 +18,9 @@
 		B237C5F025B8125B0046CD2B /* TSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B237C5EE25B8125B0046CD2B /* TSMainViewController.m */; };
 		B237C5F125B8125B0046CD2B /* TSMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B237C5EF25B8125B0046CD2B /* TSMainViewController.xib */; };
 		B237C5FA25B813D10046CD2B /* TSMainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B237C5F925B813D10046CD2B /* TSMainViewModel.m */; };
-		B2FEA02925C17C5900A6FA04 /* CGFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FEA02125C17C2000A6FA04 /* CGFramework.framework */; };
+		B2849C5625C2B74E00A0B6BC /* TSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2849C5425C2B74E00A0B6BC /* TSTabBarController.m */; };
+		B2849C5725C2B74E00A0B6BC /* TSTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2849C5525C2B74E00A0B6BC /* TSTabBarController.xib */; };
+		B2849CF525C2CE6200A0B6BC /* CGFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2849CF025C2CE5800A0B6BC /* CGFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,16 +38,16 @@
 			remoteGlobalIDString = B237C5A925B80E430046CD2B;
 			remoteInfo = XTCG_Models_Test;
 		};
-		B2FEA02025C17C2000A6FA04 /* PBXContainerItemProxy */ = {
+		B2849CEF25C2CE5800A0B6BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B2FEA01A25C17C2000A6FA04 /* CGFramework.xcodeproj */;
+			containerPortal = B2849CE925C2CE5800A0B6BC /* CGFramework.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = B2811927256E43C500A447D6;
 			remoteInfo = CGFramework;
 		};
-		B2FEA02225C17C2000A6FA04 /* PBXContainerItemProxy */ = {
+		B2849CF125C2CE5800A0B6BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B2FEA01A25C17C2000A6FA04 /* CGFramework.xcodeproj */;
+			containerPortal = B2849CE925C2CE5800A0B6BC /* CGFramework.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = B27CD39B25C17812005D9837;
 			remoteInfo = CGBundle;
@@ -87,7 +89,12 @@
 		B237C5EF25B8125B0046CD2B /* TSMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSMainViewController.xib; sourceTree = "<group>"; };
 		B237C5F825B813D10046CD2B /* TSMainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSMainViewModel.h; sourceTree = "<group>"; };
 		B237C5F925B813D10046CD2B /* TSMainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSMainViewModel.m; sourceTree = "<group>"; };
-		B2FEA01A25C17C2000A6FA04 /* CGFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CGFramework.xcodeproj; path = ../../CGFrameworkRepository/CGFramework/CGFramework.xcodeproj; sourceTree = "<group>"; };
+		B2849C5325C2B74E00A0B6BC /* TSTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTabBarController.h; sourceTree = "<group>"; };
+		B2849C5425C2B74E00A0B6BC /* TSTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTabBarController.m; sourceTree = "<group>"; };
+		B2849C5525C2B74E00A0B6BC /* TSTabBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSTabBarController.xib; sourceTree = "<group>"; };
+		B2849C6125C2B94400A0B6BC /* CGMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMainViewController.h; sourceTree = "<group>"; };
+		B2849CBC25C2C60800A0B6BC /* CG_TSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CG_TSMainViewController.h; sourceTree = "<group>"; };
+		B2849CE925C2CE5800A0B6BC /* CGFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CGFramework.xcodeproj; path = ../../CGFrameworkRepository/CGFramework/CGFramework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2FEA02925C17C5900A6FA04 /* CGFramework.framework in Frameworks */,
+				B2849CF525C2CE6200A0B6BC /* CGFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +126,7 @@
 		B237C5A125B80E430046CD2B = {
 			isa = PBXGroup;
 			children = (
-				B2FEA01A25C17C2000A6FA04 /* CGFramework.xcodeproj */,
+				B2849CE925C2CE5800A0B6BC /* CGFramework.xcodeproj */,
 				B237C5AC25B80E430046CD2B /* XTCG_Models_Test */,
 				B237C5C825B80E440046CD2B /* XTCG_Models_TestTests */,
 				B237C5D325B80E440046CD2B /* XTCG_Models_TestUITests */,
@@ -141,6 +148,7 @@
 		B237C5AC25B80E430046CD2B /* XTCG_Models_Test */ = {
 			isa = PBXGroup;
 			children = (
+				B2849C6025C2B91100A0B6BC /* CGFramework */,
 				B237C5EC25B810500046CD2B /* Model */,
 				B237C5EB25B810440046CD2B /* ViewController */,
 				B237C5EA25B8103D0046CD2B /* View */,
@@ -179,8 +187,8 @@
 		B237C5E925B810340046CD2B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				B237C5F825B813D10046CD2B /* TSMainViewModel.h */,
-				B237C5F925B813D10046CD2B /* TSMainViewModel.m */,
+				B2849C5225C2B72400A0B6BC /* TabBar */,
+				B2849C4E25C2B71100A0B6BC /* Main */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -195,9 +203,8 @@
 		B237C5EB25B810440046CD2B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B237C5ED25B8125B0046CD2B /* TSMainViewController.h */,
-				B237C5EE25B8125B0046CD2B /* TSMainViewController.m */,
-				B237C5EF25B8125B0046CD2B /* TSMainViewController.xib */,
+				B2849C5125C2B71D00A0B6BC /* TabBar */,
+				B2849C4A25C2B70800A0B6BC /* Main */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -209,20 +216,65 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		B2849C4A25C2B70800A0B6BC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B237C5ED25B8125B0046CD2B /* TSMainViewController.h */,
+				B237C5EE25B8125B0046CD2B /* TSMainViewController.m */,
+				B237C5EF25B8125B0046CD2B /* TSMainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B2849C4E25C2B71100A0B6BC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B237C5F825B813D10046CD2B /* TSMainViewModel.h */,
+				B237C5F925B813D10046CD2B /* TSMainViewModel.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B2849C5125C2B71D00A0B6BC /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B2849C5325C2B74E00A0B6BC /* TSTabBarController.h */,
+				B2849C5425C2B74E00A0B6BC /* TSTabBarController.m */,
+				B2849C5525C2B74E00A0B6BC /* TSTabBarController.xib */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		B2849C5225C2B72400A0B6BC /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		B2849C6025C2B91100A0B6BC /* CGFramework */ = {
+			isa = PBXGroup;
+			children = (
+				B2849CBC25C2C60800A0B6BC /* CG_TSMainViewController.h */,
+				B2849C6125C2B94400A0B6BC /* CGMainViewController.h */,
+			);
+			path = CGFramework;
+			sourceTree = "<group>";
+		};
+		B2849CEA25C2CE5800A0B6BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2849CF025C2CE5800A0B6BC /* CGFramework.framework */,
+				B2849CF225C2CE5800A0B6BC /* CGBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B2D6B38425B9575C0041DAF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B2FEA01B25C17C2000A6FA04 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B2FEA02125C17C2000A6FA04 /* CGFramework.framework */,
-				B2FEA02325C17C2000A6FA04 /* CGBundle.bundle */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,8 +372,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B2FEA01B25C17C2000A6FA04 /* Products */;
-					ProjectRef = B2FEA01A25C17C2000A6FA04 /* CGFramework.xcodeproj */;
+					ProductGroup = B2849CEA25C2CE5800A0B6BC /* Products */;
+					ProjectRef = B2849CE925C2CE5800A0B6BC /* CGFramework.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -334,18 +386,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B2FEA02125C17C2000A6FA04 /* CGFramework.framework */ = {
+		B2849CF025C2CE5800A0B6BC /* CGFramework.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CGFramework.framework;
-			remoteRef = B2FEA02025C17C2000A6FA04 /* PBXContainerItemProxy */;
+			remoteRef = B2849CEF25C2CE5800A0B6BC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B2FEA02325C17C2000A6FA04 /* CGBundle.bundle */ = {
+		B2849CF225C2CE5800A0B6BC /* CGBundle.bundle */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = CGBundle.bundle;
-			remoteRef = B2FEA02225C17C2000A6FA04 /* PBXContainerItemProxy */;
+			remoteRef = B2849CF125C2CE5800A0B6BC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -356,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B237C5F125B8125B0046CD2B /* TSMainViewController.xib in Resources */,
+				B2849C5725C2B74E00A0B6BC /* TSTabBarController.xib in Resources */,
 				B237C5BD25B80E440046CD2B /* LaunchScreen.storyboard in Resources */,
 				B237C5BA25B80E440046CD2B /* Assets.xcassets in Resources */,
 				B237C5B825B80E430046CD2B /* Main.storyboard in Resources */,
@@ -447,6 +500,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2849C5625C2B74E00A0B6BC /* TSTabBarController.m in Sources */,
 				B237C5FA25B813D10046CD2B /* TSMainViewModel.m in Sources */,
 				B237C5F025B8125B0046CD2B /* TSMainViewController.m in Sources */,
 				B237C5B525B80E430046CD2B /* ViewController.m in Sources */,
@@ -630,6 +684,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "paycam.XTCG-Models-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -648,6 +703,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "paycam.XTCG-Models-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

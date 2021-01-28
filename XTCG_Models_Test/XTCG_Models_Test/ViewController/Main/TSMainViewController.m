@@ -13,6 +13,8 @@
 @property (weak, nonatomic) IBOutlet UITableView *contentView;
 /// vm
 @property(nonatomic, readwrite, strong) TSMainViewModel *viewModel;
+/// data
+@property(nonatomic, readwrite, strong) NSMutableArray *dataSource;
 
 @end
 
@@ -21,12 +23,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setUI];
+    [self loadData];
     // Do any additional setup after loading the view from its nib.
 }
 
 - (void)setUI {
     self.contentView.delegate = self;
     self.contentView.dataSource = self;
+}
+
+- (void)loadData {
+    self.dataSource = [[NSMutableArray alloc] initWithArray:@[@"注册",@"验证",@"加密",@"re",@"re",@"re"]];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -39,12 +46,12 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     if(!cell) cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
-    
+    [cell.textLabel setText:self.dataSource[indexPath.row]];
     return cell;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 3;
+    return self.dataSource.count;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
