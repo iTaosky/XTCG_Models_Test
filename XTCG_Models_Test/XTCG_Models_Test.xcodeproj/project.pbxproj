@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B237C5AF25B80E430046CD2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B237C5AE25B80E430046CD2B /* AppDelegate.m */; };
-		B237C5B525B80E430046CD2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B237C5B425B80E430046CD2B /* ViewController.m */; };
 		B237C5B825B80E430046CD2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B237C5B625B80E430046CD2B /* Main.storyboard */; };
 		B237C5BA25B80E440046CD2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B237C5B925B80E440046CD2B /* Assets.xcassets */; };
 		B237C5BD25B80E440046CD2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B237C5BB25B80E440046CD2B /* LaunchScreen.storyboard */; };
@@ -20,10 +19,18 @@
 		B237C5FA25B813D10046CD2B /* TSMainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B237C5F925B813D10046CD2B /* TSMainViewModel.m */; };
 		B2849C5625C2B74E00A0B6BC /* TSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2849C5425C2B74E00A0B6BC /* TSTabBarController.m */; };
 		B2849C5725C2B74E00A0B6BC /* TSTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2849C5525C2B74E00A0B6BC /* TSTabBarController.xib */; };
-		B2849CF525C2CE6200A0B6BC /* CGFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2849CF025C2CE5800A0B6BC /* CGFramework.framework */; };
+		B2C19EB225C4043300B26ADE /* CGFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C19EA625C401C500B26ADE /* CGFramework.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		B2C19EFA25C4060500B26ADE /* CGFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2C19EA625C401C500B26ADE /* CGFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B20BD34725C4226B003DB174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C19EA025C401C500B26ADE /* CGFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B20BD32025C41F2D003DB174;
+			remoteInfo = ResourceXIB;
+		};
 		B237C5C625B80E440046CD2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B237C5A225B80E430046CD2B /* Project object */;
@@ -38,41 +45,40 @@
 			remoteGlobalIDString = B237C5A925B80E430046CD2B;
 			remoteInfo = XTCG_Models_Test;
 		};
-		B2849CEF25C2CE5800A0B6BC /* PBXContainerItemProxy */ = {
+		B2C19EA525C401C500B26ADE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B2849CE925C2CE5800A0B6BC /* CGFramework.xcodeproj */;
+			containerPortal = B2C19EA025C401C500B26ADE /* CGFramework.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B2811927256E43C500A447D6;
+			remoteGlobalIDString = B250CDF125C3C1F50019E122;
 			remoteInfo = CGFramework;
 		};
-		B2849CF125C2CE5800A0B6BC /* PBXContainerItemProxy */ = {
+		B2C19EB025C4042200B26ADE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B2849CE925C2CE5800A0B6BC /* CGFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B27CD39B25C17812005D9837;
-			remoteInfo = CGBundle;
+			containerPortal = B2C19EA025C401C500B26ADE /* CGFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B250CDF025C3C1F50019E122;
+			remoteInfo = CGFramework;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B2D6B3E025B95A9E0041DAF6 /* Embed Frameworks */ = {
+		B2C19EF725C405F200B26ADE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B2C19EFA25C4060500B26ADE /* CGFramework.framework in CopyFiles */,
 			);
-			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B20BD34525C4226B003DB174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B237C5AA25B80E430046CD2B /* XTCG_Models_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTCG_Models_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B237C5AD25B80E430046CD2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B237C5AE25B80E430046CD2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B237C5B325B80E430046CD2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B237C5B425B80E430046CD2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B237C5B725B80E430046CD2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B237C5B925B80E440046CD2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B237C5BC25B80E440046CD2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,12 +95,12 @@
 		B237C5EF25B8125B0046CD2B /* TSMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSMainViewController.xib; sourceTree = "<group>"; };
 		B237C5F825B813D10046CD2B /* TSMainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSMainViewModel.h; sourceTree = "<group>"; };
 		B237C5F925B813D10046CD2B /* TSMainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSMainViewModel.m; sourceTree = "<group>"; };
+		B250D0F525C3FE300019E122 /* CG_TSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CG_TSMainViewController.h; sourceTree = "<group>"; };
+		B250D0F625C3FE300019E122 /* CGMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMainViewController.h; sourceTree = "<group>"; };
 		B2849C5325C2B74E00A0B6BC /* TSTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTabBarController.h; sourceTree = "<group>"; };
 		B2849C5425C2B74E00A0B6BC /* TSTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTabBarController.m; sourceTree = "<group>"; };
 		B2849C5525C2B74E00A0B6BC /* TSTabBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSTabBarController.xib; sourceTree = "<group>"; };
-		B2849C6125C2B94400A0B6BC /* CGMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMainViewController.h; sourceTree = "<group>"; };
-		B2849CBC25C2C60800A0B6BC /* CG_TSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CG_TSMainViewController.h; sourceTree = "<group>"; };
-		B2849CE925C2CE5800A0B6BC /* CGFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CGFramework.xcodeproj; path = ../../CGFrameworkRepository/CGFramework/CGFramework.xcodeproj; sourceTree = "<group>"; };
+		B2C19EA025C401C500B26ADE /* CGFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CGFramework.xcodeproj; path = ../../CGFrameworkRepository/CGFramework/CGFramework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2849CF525C2CE6200A0B6BC /* CGFramework.framework in Frameworks */,
+				B2C19EB225C4043300B26ADE /* CGFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,13 +129,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B20BD34425C4226B003DB174 /* ResourceImage */ = {
+			isa = PBXGroup;
+			children = (
+				B20BD34525C4226B003DB174 /* Info.plist */,
+			);
+			path = ResourceImage;
+			sourceTree = "<group>";
+		};
 		B237C5A125B80E430046CD2B = {
 			isa = PBXGroup;
 			children = (
-				B2849CE925C2CE5800A0B6BC /* CGFramework.xcodeproj */,
+				B2C19EA025C401C500B26ADE /* CGFramework.xcodeproj */,
 				B237C5AC25B80E430046CD2B /* XTCG_Models_Test */,
 				B237C5C825B80E440046CD2B /* XTCG_Models_TestTests */,
 				B237C5D325B80E440046CD2B /* XTCG_Models_TestUITests */,
+				B20BD34425C4226B003DB174 /* ResourceImage */,
 				B237C5AB25B80E430046CD2B /* Products */,
 				B2D6B38425B9575C0041DAF6 /* Frameworks */,
 			);
@@ -155,8 +170,6 @@
 				B237C5E925B810340046CD2B /* ViewModel */,
 				B237C5AD25B80E430046CD2B /* AppDelegate.h */,
 				B237C5AE25B80E430046CD2B /* AppDelegate.m */,
-				B237C5B325B80E430046CD2B /* ViewController.h */,
-				B237C5B425B80E430046CD2B /* ViewController.m */,
 				B237C5B625B80E430046CD2B /* Main.storyboard */,
 				B237C5B925B80E440046CD2B /* Assets.xcassets */,
 				B237C5BB25B80E440046CD2B /* LaunchScreen.storyboard */,
@@ -255,17 +268,17 @@
 		B2849C6025C2B91100A0B6BC /* CGFramework */ = {
 			isa = PBXGroup;
 			children = (
-				B2849CBC25C2C60800A0B6BC /* CG_TSMainViewController.h */,
-				B2849C6125C2B94400A0B6BC /* CGMainViewController.h */,
+				B250D0F525C3FE300019E122 /* CG_TSMainViewController.h */,
+				B250D0F625C3FE300019E122 /* CGMainViewController.h */,
 			);
 			path = CGFramework;
 			sourceTree = "<group>";
 		};
-		B2849CEA25C2CE5800A0B6BC /* Products */ = {
+		B2C19EA125C401C500B26ADE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2849CF025C2CE5800A0B6BC /* CGFramework.framework */,
-				B2849CF225C2CE5800A0B6BC /* CGBundle.bundle */,
+				B2C19EA625C401C500B26ADE /* CGFramework.framework */,
+				B20BD34825C4226B003DB174 /* ResourceXIB.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -287,11 +300,12 @@
 				B237C5A625B80E430046CD2B /* Sources */,
 				B237C5A725B80E430046CD2B /* Frameworks */,
 				B237C5A825B80E430046CD2B /* Resources */,
-				B2D6B3E025B95A9E0041DAF6 /* Embed Frameworks */,
+				B2C19EF725C405F200B26ADE /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B2C19EB125C4042200B26ADE /* PBXTargetDependency */,
 			);
 			name = XTCG_Models_Test;
 			productName = XTCG_Models_Test;
@@ -372,8 +386,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B2849CEA25C2CE5800A0B6BC /* Products */;
-					ProjectRef = B2849CE925C2CE5800A0B6BC /* CGFramework.xcodeproj */;
+					ProductGroup = B2C19EA125C401C500B26ADE /* Products */;
+					ProjectRef = B2C19EA025C401C500B26ADE /* CGFramework.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -386,18 +400,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B2849CF025C2CE5800A0B6BC /* CGFramework.framework */ = {
+		B20BD34825C4226B003DB174 /* ResourceXIB.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResourceXIB.bundle;
+			remoteRef = B20BD34725C4226B003DB174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B2C19EA625C401C500B26ADE /* CGFramework.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CGFramework.framework;
-			remoteRef = B2849CEF25C2CE5800A0B6BC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B2849CF225C2CE5800A0B6BC /* CGBundle.bundle */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CGBundle.bundle;
-			remoteRef = B2849CF125C2CE5800A0B6BC /* PBXContainerItemProxy */;
+			remoteRef = B2C19EA525C401C500B26ADE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -503,7 +517,6 @@
 				B2849C5625C2B74E00A0B6BC /* TSTabBarController.m in Sources */,
 				B237C5FA25B813D10046CD2B /* TSMainViewModel.m in Sources */,
 				B237C5F025B8125B0046CD2B /* TSMainViewController.m in Sources */,
-				B237C5B525B80E430046CD2B /* ViewController.m in Sources */,
 				B237C5AF25B80E430046CD2B /* AppDelegate.m in Sources */,
 				B237C5C025B80E440046CD2B /* main.m in Sources */,
 			);
@@ -537,6 +550,11 @@
 			isa = PBXTargetDependency;
 			target = B237C5A925B80E430046CD2B /* XTCG_Models_Test */;
 			targetProxy = B237C5D125B80E440046CD2B /* PBXContainerItemProxy */;
+		};
+		B2C19EB125C4042200B26ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CGFramework;
+			targetProxy = B2C19EB025C4042200B26ADE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -679,12 +697,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KL2VNDPSLC;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = XTCG_Models_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "paycam.XTCG-Models-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -698,12 +721,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KL2VNDPSLC;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = XTCG_Models_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "paycam.XTCG-Models-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

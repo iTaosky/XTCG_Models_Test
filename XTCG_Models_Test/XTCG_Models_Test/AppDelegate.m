@@ -35,8 +35,7 @@
     UINavigationController *cgMainNavViewContorller = [[UINavigationController alloc] initWithRootViewController:cgMainViewContorller];
     cgMainNavViewContorller.tabBarItem.title = @"畅感";
     TSTabBarController *tabBarController = [[TSTabBarController alloc] init];
-    tabBarController.viewControllers = @[mainNavViewContorller,
-                                         cgMainNavViewContorller];
+    tabBarController.viewControllers = @[cgMainNavViewContorller,mainNavViewContorller];
 
     [self.window setRootViewController:tabBarController];
     [self.window makeKeyAndVisible];

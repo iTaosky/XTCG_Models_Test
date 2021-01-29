@@ -12,7 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CG_TSMainViewController : UIViewController
 
-- (instancetype)initWithXib;
 
 @end
 
