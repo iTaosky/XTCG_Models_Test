@@ -24,12 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B20BD34725C4226B003DB174 /* PBXContainerItemProxy */ = {
+		B22FB58225C50AB200AD2457 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B2C19EA025C401C500B26ADE /* CGFramework.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B20BD32025C41F2D003DB174;
-			remoteInfo = ResourceXIB;
+			remoteGlobalIDString = B22FB55225C4FA6300AD2457;
+			remoteInfo = XTCGResource;
 		};
 		B237C5C625B80E440046CD2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -76,6 +76,7 @@
 
 /* Begin PBXFileReference section */
 		B20BD34525C4226B003DB174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22FB53C25C4FA3E00AD2457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B237C5AA25B80E430046CD2B /* XTCG_Models_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTCG_Models_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B237C5AD25B80E430046CD2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B237C5AE25B80E430046CD2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,7 +96,6 @@
 		B237C5EF25B8125B0046CD2B /* TSMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSMainViewController.xib; sourceTree = "<group>"; };
 		B237C5F825B813D10046CD2B /* TSMainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSMainViewModel.h; sourceTree = "<group>"; };
 		B237C5F925B813D10046CD2B /* TSMainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSMainViewModel.m; sourceTree = "<group>"; };
-		B250D0F525C3FE300019E122 /* CG_TSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CG_TSMainViewController.h; sourceTree = "<group>"; };
 		B250D0F625C3FE300019E122 /* CGMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMainViewController.h; sourceTree = "<group>"; };
 		B2849C5325C2B74E00A0B6BC /* TSTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTabBarController.h; sourceTree = "<group>"; };
 		B2849C5425C2B74E00A0B6BC /* TSTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTabBarController.m; sourceTree = "<group>"; };
@@ -137,6 +137,14 @@
 			path = ResourceImage;
 			sourceTree = "<group>";
 		};
+		B22FB53B25C4FA3E00AD2457 /* XTCGResource */ = {
+			isa = PBXGroup;
+			children = (
+				B22FB53C25C4FA3E00AD2457 /* Info.plist */,
+			);
+			path = XTCGResource;
+			sourceTree = "<group>";
+		};
 		B237C5A125B80E430046CD2B = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +153,7 @@
 				B237C5C825B80E440046CD2B /* XTCG_Models_TestTests */,
 				B237C5D325B80E440046CD2B /* XTCG_Models_TestUITests */,
 				B20BD34425C4226B003DB174 /* ResourceImage */,
+				B22FB53B25C4FA3E00AD2457 /* XTCGResource */,
 				B237C5AB25B80E430046CD2B /* Products */,
 				B2D6B38425B9575C0041DAF6 /* Frameworks */,
 			);
@@ -268,7 +277,6 @@
 		B2849C6025C2B91100A0B6BC /* CGFramework */ = {
 			isa = PBXGroup;
 			children = (
-				B250D0F525C3FE300019E122 /* CG_TSMainViewController.h */,
 				B250D0F625C3FE300019E122 /* CGMainViewController.h */,
 			);
 			path = CGFramework;
@@ -278,7 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				B2C19EA625C401C500B26ADE /* CGFramework.framework */,
-				B20BD34825C4226B003DB174 /* ResourceXIB.bundle */,
+				B22FB58325C50AB200AD2457 /* XTCGResource.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -400,11 +408,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B20BD34825C4226B003DB174 /* ResourceXIB.bundle */ = {
+		B22FB58325C50AB200AD2457 /* XTCGResource.bundle */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = ResourceXIB.bundle;
-			remoteRef = B20BD34725C4226B003DB174 /* PBXContainerItemProxy */;
+			path = XTCGResource.bundle;
+			remoteRef = B22FB58225C50AB200AD2457 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		B2C19EA625C401C500B26ADE /* CGFramework.framework */ = {

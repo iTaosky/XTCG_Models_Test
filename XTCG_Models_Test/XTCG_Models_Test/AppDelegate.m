@@ -9,7 +9,7 @@
 #import "TSTabBarController.h"
 
 #import "TSMainViewController.h"
-#import "CG_TSMainViewController.h"
+#import "CGMainViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -31,7 +31,7 @@
     TSMainViewController *mainViewContorller = [[TSMainViewController alloc] init];
     UINavigationController *mainNavViewContorller = [[UINavigationController alloc] initWithRootViewController:mainViewContorller];
     mainNavViewContorller.tabBarItem.title = @"测试";
-    CG_TSMainViewController *cgMainViewContorller = [[CG_TSMainViewController alloc] init];
+    CGMainViewController *cgMainViewContorller = [[CGMainViewController alloc] init];
     UINavigationController *cgMainNavViewContorller = [[UINavigationController alloc] initWithRootViewController:cgMainViewContorller];
     cgMainNavViewContorller.tabBarItem.title = @"畅感";
     TSTabBarController *tabBarController = [[TSTabBarController alloc] init];
