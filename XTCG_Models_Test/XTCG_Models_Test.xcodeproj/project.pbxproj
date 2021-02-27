@@ -96,6 +96,7 @@
 		B237C5EF25B8125B0046CD2B /* TSMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSMainViewController.xib; sourceTree = "<group>"; };
 		B237C5F825B813D10046CD2B /* TSMainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSMainViewModel.h; sourceTree = "<group>"; };
 		B237C5F925B813D10046CD2B /* TSMainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSMainViewModel.m; sourceTree = "<group>"; };
+		B23FCF6925D3B88700FE671D /* CG_TSTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CG_TSTestViewController.h; sourceTree = "<group>"; };
 		B250D0F625C3FE300019E122 /* CGMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMainViewController.h; sourceTree = "<group>"; };
 		B2849C5325C2B74E00A0B6BC /* TSTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTabBarController.h; sourceTree = "<group>"; };
 		B2849C5425C2B74E00A0B6BC /* TSTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTabBarController.m; sourceTree = "<group>"; };
@@ -277,6 +278,7 @@
 		B2849C6025C2B91100A0B6BC /* CGFramework */ = {
 			isa = PBXGroup;
 			children = (
+				B23FCF6925D3B88700FE671D /* CG_TSTestViewController.h */,
 				B250D0F625C3FE300019E122 /* CGMainViewController.h */,
 			);
 			path = CGFramework;
@@ -716,7 +718,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "paycam.XTCG-Models-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunteng.cgsdkdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -740,7 +742,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "paycam.XTCG-Models-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunteng.cgsdkdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

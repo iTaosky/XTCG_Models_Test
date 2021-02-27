@@ -10,6 +10,7 @@
 
 #import "TSMainViewController.h"
 #import "CGMainViewController.h"
+#import "CG_TSTestViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -28,6 +29,10 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    CG_TSTestViewController *cgTestViewContorller = [[CG_TSTestViewController alloc] init];
+    UINavigationController *cgTestNavViewContorller = [[UINavigationController alloc] initWithRootViewController:cgTestViewContorller];
+    cgTestNavViewContorller.tabBarItem.title = @"SDK测试页";
+    
     TSMainViewController *mainViewContorller = [[TSMainViewController alloc] init];
     UINavigationController *mainNavViewContorller = [[UINavigationController alloc] initWithRootViewController:mainViewContorller];
     mainNavViewContorller.tabBarItem.title = @"测试";
@@ -35,7 +40,7 @@
     UINavigationController *cgMainNavViewContorller = [[UINavigationController alloc] initWithRootViewController:cgMainViewContorller];
     cgMainNavViewContorller.tabBarItem.title = @"畅感";
     TSTabBarController *tabBarController = [[TSTabBarController alloc] init];
-    tabBarController.viewControllers = @[cgMainNavViewContorller,mainNavViewContorller];
+    tabBarController.viewControllers = @[cgTestNavViewContorller, cgMainNavViewContorller,mainNavViewContorller];
 
     [self.window setRootViewController:tabBarController];
     [self.window makeKeyAndVisible];

@@ -7,48 +7,92 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8266A0DB-ED3A-4633-8A0C-2AF073C5A229"
+            uuid = "6D617CEB-F8F1-47BF-BF16-665F25ABF2F7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../CGFrameworkRepository/CGFramework/CGFramework/UI/View/Show/CGDemoTest.m"
+            filePath = "../../CGFrameworkRepository/CGFramework/CGFramework/Modules/BusinessAPI/AppManager/AppMgrSDKRight/CGAppMgrSDKRightAPIMgr.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "-initWithFrame:"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "-paramsForApi:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "D1CCD930-7122-4FBE-ACAA-EF2FDFE6D68A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEA0312B-0AB9-400F-8B5D-25E872433EAD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../CGFrameworkRepository/CGFramework/CGFramework/Modules/BusinessAPI/AppManager/AppMgrUsrImport/CGAppMgrUsrImportAPIMgr.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-paramsForApi:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "65DEA46F-AD59-4194-ABB8-5F92FFEFD1E2"
+            uuid = "B08788A0-9776-4F08-B52B-2AA0E2A9EE10"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../CGFrameworkRepository/CGFramework/CGFramework/Models/Network/CTNetworking/Components/BaseAPIManager/CTTSAPIBaseManager.m"
+            filePath = "../../CGFrameworkRepository/CGFramework/CGFramework/Modules/ShowUsrData/CGShowUsrDataViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "432"
-            endingLineNumber = "432"
-            landmarkName = "-isReachable"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-paycamFRCapFaceWithSrcImage:andFaceImage:andFeatureData:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9DC358A2-D6E1-4B74-B94A-6E45339F5D8A"
+            uuid = "9DB59270-9DBE-4434-BEAA-130E1530286F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../CGFrameworkRepository/CGFramework/CGFramework/Models/Network/CTMediator/CTTSMediator.m"
+            filePath = "../../CGFrameworkRepository/CGFramework/CGFramework/Modules/VerifyPhone/UsrSCode/CGUsrSCodeViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "-performTarget:action:params:shouldCacheTarget:"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "-handleRecvCallBackWithData:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1C0DAC1-637E-4DA7-B3CA-2C66DC49F015"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../CGFrameworkRepository/CGFramework/CGFramework/Modules/UsrImport/CGUsrImportViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "-usrSCodeCallBackWithCode:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
