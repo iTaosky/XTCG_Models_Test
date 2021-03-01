@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "6D617CEB-F8F1-47BF-BF16-665F25ABF2F7"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../CGFrameworkRepository/CGFramework/CGFramework/Modules/BusinessAPI/AppManager/AppMgrSDKRight/CGAppMgrSDKRightAPIMgr.m"
@@ -58,25 +58,9 @@
             filePath = "../../CGFrameworkRepository/CGFramework/CGFramework/Modules/ShowUsrData/CGShowUsrDataViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "-paycamFRCapFaceWithSrcImage:andFaceImage:andFeatureData:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9DB59270-9DBE-4434-BEAA-130E1530286F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../CGFrameworkRepository/CGFramework/CGFramework/Modules/VerifyPhone/UsrSCode/CGUsrSCodeViewController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "197"
-            endingLineNumber = "197"
-            landmarkName = "-handleRecvCallBackWithData:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -90,9 +74,41 @@
             filePath = "../../CGFrameworkRepository/CGFramework/CGFramework/Modules/UsrImport/CGUsrImportViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "-usrSCodeCallBackWithCode:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D6B5AF2-A02D-4E06-80B5-BDE15D8E879B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../CGFrameworkRepository/CGFramework/CGFramework/Modules/UsrImport/CGUsrImportViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "-viewModelCallNeedVerifyPhoneWithAPIMsg:andData:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53EF4A25-D4E4-4404-8662-E0564DBB9287"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../CGFrameworkRepository/CGFramework/CGFramework/Modules/VerifyPhone/UsrSCode/CGUsrSCodeViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "-handleRecvCallBackWithData:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
